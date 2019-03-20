@@ -1,15 +1,15 @@
 ---
 layout: post-index
 title: Latest Posts
-description: "Describe this nonsense."
-tags: [Jekyll, theme, themes, responsive, blog, modern]
+description: "Blog for system and networking administration, linux, python, security by zloja."
+tags: [zloja, zloja.com, linux, cisco, networking, python, security]
 comments: false
-image:
-  feature: abstract-1.jpg
-  credit: dargadgetz
-  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
----
 
+image:
+  feature: index.png
+  credit: 
+  creditlink: 
+---
 {% for post in paginator.posts %}
 <article class="hentry">
   <header>
@@ -34,8 +34,11 @@ image:
     {% endif %}
   </header>
   <div class="entry-content">
-    {{ post.content }}
+    {{ post.description }}
   </div><!-- /.entry-content -->
+  <div class="entry-content">
+    <a href="{{ site.url}}{{ post.url }}" title="{{ post.title }}">read more...</a>
+  </div>
 </article><!-- /.hentry -->
 {% endfor %}
 
