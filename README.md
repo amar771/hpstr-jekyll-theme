@@ -1,1 +1,1 @@
-
+[![Netlify Status](https://api.netlify.com/api/v1/badges/2ff97249-b0d6-40c9-9962-1668ac13db97/deploy-status)](https://app.netlify.com/sites/gracious-davinci-cb9214/deploys)
